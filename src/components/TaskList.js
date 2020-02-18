@@ -37,10 +37,10 @@ const TaskList = props => {
         </h2>
         {done.length > 2 && (
           <span style={{ fontSize: 10 }}>
-            Wyświetlonych jest jedynie 2 ostatnich zadań
+            Wyświetlonych jest jedynie 5 ostatnich zadań
           </span>
         )}
-        {doneTasks.slice(0, 2)}
+        {doneTasks.slice(0, 5)}
       </div>
     </>
   );
