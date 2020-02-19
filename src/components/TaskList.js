@@ -23,7 +23,6 @@ const TaskList = props => {
     />
   ));
 
-  console.log(done, active);
   return (
     <>
       <div className="active">
